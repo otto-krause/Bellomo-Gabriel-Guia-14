@@ -24,17 +24,17 @@ int main()
     while (cont==1)
     {
         system("cls");
-        printf("Ingrese el numero de legajo del alumno y el bimestre a cambiar\n");
-        printf("N Legajo: ");
+        
+        printf("Ingresar el numero de legajo y el bimestre que desea cambiar:\n");
+        printf("Legajo (N):\n");
         scanf("%d", &Leg);
-        printf("Trimestre: ");
+        printf("Trimestre (N):\n");
         scanf("%d", &Trim);
 
         nuev=matriz[Leg][Trim];
 
         printf("Ingrese la nueva nota: ");
         scanf("%d", &matriz[Leg][Trim]);
-
         printf("\nEsta seguro de cambiar la nota %d por la nota %d? (Si=1|No=2):\n", nuev, matriz[Leg][Trim]);
         scanf("%d", &cont);
 
