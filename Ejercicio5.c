@@ -5,8 +5,7 @@
 int main()
 {
 
-    int matriz[101][4]={0}, nuev[3]={0}, I=0, J=0, cont=0, Q=0, cant=0, p=0;
-    int prom[4]={0};
+    int matriz[101][4]={0}, nuev[3]={0}, I=0, J=0, cont=0, Q=0, cant=0, p=0, prom=0;
 
     for (I=1;I<=100;I++)
     {
@@ -69,9 +68,9 @@ int main()
 
         for (I=1;I<=100;I++)
         {
-            prom[I]=(matriz[I][1]+matriz[I][2]+matriz[I][3])/3;
+            prom=(matriz[I][1]+matriz[I][2]+matriz[I][3])/3;
 
-            printf("%d\t\t%d\t\t%d\t\t%d\t\t%d\n\n", I, matriz[I][1], matriz[I][2], matriz[I][3], prom[I]);
+            printf("%d\t\t%d\t\t%d\t\t%d\t\t%d\n\n", I, matriz[I][1], matriz[I][2], matriz[I][3], prom);
         }
     }
 
@@ -83,9 +82,9 @@ int main()
 
         for (I=1;I<=100;I++)
         {
-            prom[I]=(matriz[I][1]+matriz[I][2]+matriz[I][3])/3;
+            prom=(matriz[I][1]+matriz[I][2]+matriz[I][3])/3;
 
-            printf("%d\t\t%d\t\t%d\t\t%d\t\t%d\n\n", I, matriz[I][1], matriz[I][2], matriz[I][3], prom[I]);
+            printf("%d\t\t%d\t\t%d\t\t%d\t\t%d\n\n", I, matriz[I][1], matriz[I][2], matriz[I][3], prom);
         }
     }
 }
