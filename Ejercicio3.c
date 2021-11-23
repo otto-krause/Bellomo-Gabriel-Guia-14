@@ -25,9 +25,12 @@ int main()
     for (J=0;J<3;J++)
     {
         matriz[0][J]=matriz[0][J]*4;
-        matriz[1][J]=matriz[1][J]*3;
     }
 
+    for (I=0;I<2;I++)
+    {
+        matriz[I][2]=matriz[I][2]*3;
+    }
     for (I=0;I<2;I++)
     {
         for (J=0;J<3;J++)
