@@ -7,15 +7,13 @@ int main()
     int matriz[4][13]={0}, sumtot=0, sumlin=0, I=0, J=0;
 
     do{
-        printf("Ingresar el numero del colectivo: ");
-        scanf("%d",&J);
+        printf("Ingresar el numero, la linea y despues la recaudacion del colectivo: ");
+        scanf("\n%d",&J);
 
         if(J>=1){
-            printf("Ingresar la linea del colectivo: ");
-            scanf("%d",&I);
-
-            printf("Ingresar la cantidad recaudad: ");
-            scanf("%d",&matriz[I][J]);
+            
+            scanf("\n%d",&I);
+            scanf("\n%d",&matriz[I][J]);
 
             system("cls");
             }
